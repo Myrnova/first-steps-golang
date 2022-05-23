@@ -20,8 +20,8 @@ func (u *usuario) maiorDeIdade() bool {
 }
 
 type endereco struct {
-	logradouro string
-	numero     uint8
+	logradouro string `default:"Rua dos Bobos"`
+	numero     uint8  `default:"0"`
 }
 
 func main() {
@@ -36,10 +36,10 @@ func main() {
 	enderecoExemplo := endereco{"Rua dos Bobos", 0}
 
 	usuario2 := usuario{"Davi", 21, enderecoExemplo}
-	fmt.Println(usuario2.maiorDeIdade())
+	fmt.Println(usuario2)
 
 	usuario3 := usuario{nome: "Davi"}
 
-	fmt.Println(usuario3)
+	fmt.Println(usuario3.maiorDeIdade())
 
 }
