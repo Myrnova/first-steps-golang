@@ -1,0 +1,21 @@
+go.mod seria como o package.json do node
+ele centraliza todas as dependências do projeto
+
+go build é uma maneira de rodar o projeto, ele gera o arquivo do module que você criou
+pacote é um conjunto de arquivos que estão um uma pasta, então para criar outro pacote é só criar outra pasta
+
+GO não possui nada parecido com public, private, protect, para definir se algo é publico é pela letra dela função, se uma função começar com letra
+minuscula ela é apenas visivel no pacote que ela está, se começa com letra maiuscula ela pode ser usada por outro pacote
+
+
+go get linkdopacote -> instalar pacotes no projeto
+
+<nil> null do go
+
+go mod tidy -> remove todas as dependências não utilizadas no projeto
+
+Go não deixa criar uma variavel/ importar pacote e nao usar, ele vai dar um erro
+Caso queira criar uma variavel ser utilizar var e o tipo é possivel fazer isso utilizando o := (inferência)
+
+No GO nos temos int8, int16, int32, int64, se voce utilizar o 
+int sem especificar ele vai utilizar a arquitetura do computador como base
