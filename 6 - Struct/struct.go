@@ -12,7 +12,7 @@ type usuario struct {
 }
 
 // adicionar metodo dentro do struct, consigo acessar as propriedades utilizando o "u"
-func (u *usuario) maiorDeIdade() bool {
+func (u usuario) maiorDeIdade() bool {
 	if u.idade > 18 {
 		return true
 	}
