@@ -1,0 +1,5 @@
+mode: set
+teste-avancado/formas/formas.go:15.35,17.2 1 1
+teste-avancado/formas/formas.go:23.33,25.2 1 1
+teste-avancado/formas/formas.go:31.28,34.2 1 0
+teste-avancado/formas/formas.go:36.13,45.2 4 0
