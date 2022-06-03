@@ -1,5 +1,5 @@
 go.mod seria como o package.json do node
-(go mod init nomedopacote)
+(go mod init nomedopacote) // fazendo isso qualquer go get que fazemos será baixado no pacote gerado e não no geral da máquina
 ele centraliza todas as dependências do projeto
 
 go build é uma maneira de rodar o projeto, ele gera o arquivo do module que você criou
@@ -20,3 +20,9 @@ Caso queira criar uma variavel ser utilizar var e o tipo é possivel fazer isso 
 
 No GO nos temos int8, int16, int32, int64, se voce utilizar o 
 int sem especificar ele vai utilizar a arquitetura do computador como base
+
+
+
+
+sudo systemctl start mysql  //iniciar mysql
+sudo systemctl disable mysql //não iniciar no login
